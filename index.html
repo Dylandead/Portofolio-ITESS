@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dylan's Portfolio — International Teacher Education</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;1,400&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="site-chrome"></div>
+
+<section class="hero">
+  <div class="wrap">
+    <p class="kicker">Year 1 — International Teacher Education</p>
+    <h1>A record of how I'm developing as a teacher.</h1>
+    <p class="lede">
+      This portfolio collects the assessments, assignments and reflections from my
+      years of ITE. Pick a year from the menu above, or the cards below, to see
+      the assessments in it — it will grow as new work is completed.
+    </p>
+    <div class="meta-row">
+      <div class="meta-item">
+        <div class="label">Student</div>
+        <div class="value">Dylan</div>
+      </div>
+      <div class="meta-item">
+        <div class="label">Programme</div>
+        <div class="value">International Teacher Education</div>
+      </div>
+      <div class="meta-item">
+        <div class="label">Currently in</div>
+        <div class="value">Year 1</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="years-section">
+  <div class="wrap">
+    <h2>Browse by year</h2>
+    <div class="year-grid" id="year-links"></div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">Portfolio — International Teacher Education</div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/render.js"></script>
+<script>
+  renderChrome([{ label: "Home" }]);
+  renderHomeYearLinks();
+</script>
+</body>
+</html>
